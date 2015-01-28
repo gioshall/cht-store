@@ -1,0 +1,387 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.app-donload .store-apple img, .app-donload .store-android img {
+  width: 100%;
+  height: 100%;
+}
+
+section.block-02 .blk02bg.bg01, section.block-02 .blk02bg.bg02, section.block-02 .dvcs {
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.header .logo .logo-ie8, .header .logo-cht .logo-cht-ie8 {
+  display: none;
+  display: block \9;
+}
+
+.header .logo, .header .logo-cht {
+  background: transparent \9;
+}
+
+.header .logo, .header .logo .logo-ie8 {
+  width: 345px;
+  height: 55px;
+}
+
+.header .logo-cht, .header .logo-cht .logo-cht-ie8 {
+  width: 235px;
+  height: 60px;
+}
+
+section.block-base, section.block-01, section.block-02 {
+  position: relative;
+  text-align: center;
+}
+
+section.block-01 .main-btn a, section.block-02 .main-btn a {
+  width: 285px;
+  height: 90px;
+  line-height: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 3px #fff solid;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+  display: block;
+  text-decoration: none;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+section.block-base .game-wall, section.block-02 .blk02bg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.app-donload .store-apple, .app-donload .store-android {
+  width: 365px;
+  height: 114px;
+  display: block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+body {
+  font-family: helvetica, "LiHei Pro", "Heiti TC", "微軟正黑體";
+}
+
+.header {
+  height: 75px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.header .logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 345px 55px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.header .logo-cht {
+  background-image: url("../img/logo-cht.png");
+  background-repeat: no-repeat;
+  background-size: 235px 60px;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -185px;
+  z-index: 100;
+}
+.nav li {
+  width: 85px;
+  height: 85px;
+  display: block;
+  margin: 10px;
+  cursor: pointer;
+  background-image: url("../img/icon-nav.png");
+  background-repeat: no-repeat;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.nav li.toGames {
+  background-position: 0 0;
+}
+.nav li.toDevices {
+  background-position: 0 -85px;
+}
+.nav li.toDownload {
+  background-position: 0 -170px;
+}
+.nav li.toTop {
+  background-position: 0 -255px;
+  background-color: rgba(65, 177, 17, 0.8);
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+section h2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+}
+section.block-base {
+  overflow: hidden;
+  position: fixed;
+  background-image: url("../img/bg-blk01.jpg");
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section.block-base .game-hand {
+  background-image: url("../img/game-hand.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto 100%;
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  min-height: 450px;
+}
+section.block-01 {
+  top: 0;
+}
+section.block-01 h2 {
+  padding-top: 160px;
+  padding-bottom: 40px;
+}
+section.block-01 .gradient-mask {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 116, 159, 0)), to(rgba(0, 65, 90, 0.8)));
+  background-image: -webkit-linear-gradient(top, rgba(14, 116, 159, 0), rgba(0, 65, 90, 0.8));
+  background-image: -moz-linear-gradient(top, rgba(14, 116, 159, 0), rgba(0, 65, 90, 0.8));
+  background-image: -ms-linear-gradient(top, rgba(14, 116, 159, 0), rgba(0, 65, 90, 0.8));
+  background-image: -o-linear-gradient(top, rgba(14, 116, 159, 0), rgba(0, 65, 90, 0.8));
+  background-image: linear-gradient(to bottom, rgba(14, 116, 159, 0), rgba(0, 65, 90, 0.8));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='rgba(14, 116, 159, 0)', EndColorStr='rgba(0, 65, 90, 0.8)');
+}
+section.block-02 {
+  background: #ebebeb;
+  z-index: 10;
+}
+section.block-02 h2 {
+  padding-top: 160px;
+  padding-bottom: 40px;
+  color: #00b99d;
+}
+section.block-02 .main-btn a {
+  background-color: rgba(0, 129, 109, 0.6);
+}
+section.block-02 .blk02bg.bg01 {
+  background-image: url("../img/ws.png");
+  background-repeat: no-repeat;
+  height: 100%;
+}
+section.block-02 .blk02bg.bg02 {
+  background-image: url("../img/4colors.png");
+  background-repeat: no-repeat;
+  height: 120%;
+  margin-top: -70px;
+}
+section.block-02 .dvcs {
+  background-image: url("../img/devices.png");
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 628px;
+  margin-top: -170px;
+}
+section.block-03.darken {
+  background-color: rgba(0, 0, 0, 0.5);
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.dvc-mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+}
+
+.devices {
+  width: 1100px;
+  left: 50%;
+  margin-left: -550px;
+  padding: 10px 0 0 0;
+  position: absolute;
+  top: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 250;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.devices .close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: url(../img/icon-close.png) 0 0 no-repeat;
+  cursor: pointer;
+}
+.devices li {
+  width: 16.6%;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.devices li:last-child {
+  width: 17%;
+}
+.devices ol {
+  border-top: 1px #acacac solid;
+  padding: 10px 0 10px 15%;
+  margin: 10px 0;
+  width: 85%;
+}
+.devices ol li {
+  display: block;
+  font-size: 13px;
+  line-height: 23px;
+  color: #666;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  list-style-type: disc;
+  white-space: nowrap;
+}
+
+.app-donload {
+  position: relative;
+  z-index: 5;
+  width: 700px;
+  margin: auto;
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+.app-donload h2 {
+  font-size: 40px;
+  line-height: 110px;
+  font-weight: bold;
+}
+.app-donload h2 img {
+  float: left;
+  margin-right: 10px;
+}
+.app-donload .store {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+.app-donload .store-apple {
+  margin-bottom: 5px;
+}
+.app-donload .store-hami {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 330px;
+  height: 233px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.app-donload .store-hami .qrcode {
+  margin: 25px auto 0;
+  display: block;
+}
