@@ -1,13 +1,13 @@
 // preload //
 
-$(document).ready( function() {
-    var timer;   
-    $('body').jpreLoader({
-        splashID: "#jSplash",
-        loaderVPos: '0%',
-        autoClose: true        
-    }); 
-});
+// $(document).ready( function() {
+//     var timer;   
+//     $('body').jpreLoader({
+//         splashID: "#jSplash",
+//         loaderVPos: '0%',
+//         autoClose: true        
+//     }); 
+// });
 
 // scroll
 
