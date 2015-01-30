@@ -387,6 +387,24 @@ section.block-03.darken {
 }
 
 /* media queries */
+@media only screen and (max-width: 1024px) {
+  .devices {
+    width: 90%;
+    left: 5%;
+    margin-left: 0;
+  }
+  .devices li, .devices li:last-child {
+    width: 16.6%;
+  }
+  .devices li img, .devices li:last-child img {
+    width: 94%;
+    margin: 0 3%;
+  }
+  .devices ol li {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .app-donload {
     margin: 150px auto 0;
@@ -438,10 +456,8 @@ section.block-03.darken {
   }
 
   section h2 {
-    font-size: 40px;
-    line-height: 50px;
-    width: 220px;
-    margin: auto;
+    font-size: 35px;
+    line-height: 40px;
   }
   section.block-base {
     overflow: hidden;
@@ -449,7 +465,7 @@ section.block-03.darken {
   section.block-base .game-wall {
     width: 120%;
     left: -10%;
-    top: 40%;
+    top: 10%;
   }
   section.block-base .game-hand {
     height: 40%;
@@ -466,7 +482,7 @@ section.block-03.darken {
     font-size: 22px;
   }
   section.block-02 h2 {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
   section.block-02 .main-btn a {
@@ -476,19 +492,25 @@ section.block-03.darken {
     font-size: 22px;
   }
   section.block-02 .dvcs {
-    height: 30%;
-    margin-top: -30px;
+    height: 80%;
+    margin-top: -100px;
   }
   section.block-02 .blk02bg.bg02 {
     margin-top: 0px;
   }
 
   .app-donload {
-    width: 550px;
-    margin-top: 50px;
+    width: 300px;
+    margin-top: 0px;
+    padding-top: 10px;
   }
   .app-donload h2 {
+    width: 100%;
     font-size: 29px;
+    line-height: 40px;
+  }
+  .app-donload h2 img {
+    height: 80px;
   }
   .app-donload .store {
     margin-top: 10px;
@@ -498,10 +520,11 @@ section.block-03.darken {
   }
   .app-donload .store-apple, .app-donload .store-android, .app-donload .store-hami {
     width: 100%;
-    height: 100px;
+    height: auto;
   }
   .app-donload .store-apple img, .app-donload .store-android img {
-    width: auto;
+    width: 70%;
+    height: auto;
   }
   .app-donload .store-hami {
     position: relative;
@@ -540,6 +563,46 @@ section.block-03.darken {
   }
   .header .logo-cht {
     display: none;
+  }
+
+  section h2 {
+    width: 220px;
+  }
+  section.block-base .game-wall {
+    width: 120%;
+    left: -10%;
+    top: 40%;
+  }
+  section.block-base .game-hand {
+    height: 40%;
+    min-height: 40%;
+  }
+  section.block-01 h2 {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  section.block-01 .main-btn a {
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
+  }
+  section.block-02 h2 {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  section.block-02 .main-btn a {
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
+  }
+  section.block-02 .dvcs {
+    height: 30%;
+    margin-top: -30px;
+  }
+  section.block-02 .blk02bg.bg02 {
+    margin-top: 0px;
   }
 
   .app-donload {
