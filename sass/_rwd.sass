@@ -27,11 +27,7 @@
 		ol li
 			font-size: 11px
 			line-height: 16px
-
 @include breakpoint(pad)
-	.app-donload
-		margin: 150px auto 0
-@include breakpoint(mobile-l)
 	.nav
 		bottom: 0
 		margin-top: 0px
@@ -39,7 +35,7 @@
 		width: 100%
 		top: initial
 		li
-			width: $p100 / 3
+			width: $p100 / 4
 			height: 60px
 			display: inline-block
 			margin: 0px
@@ -53,6 +49,40 @@
 				background-position: center -60px
 			&.toDownload
 				background-position: center -120px
+			&.toTop
+				background-position: center -180px
+	section
+		h2
+		&.block-base
+			overflow: hidden
+			.game-wall
+				width: 120%
+				left: -10%
+				top: 15%
+			.game-hand
+				height: 45%
+				min-height: 45%
+		&.block-01
+			h2
+				padding-top: 300px
+				padding-bottom: 40px
+		&.block-02
+			h2
+				padding-top: 300px
+				padding-bottom: 40px
+			.dvcs
+				height: 35%
+				margin-top: -80px
+			.blk02bg
+				&.bg02
+					margin-top: 130px
+					height: 90%
+	.app-donload
+		margin: 150px auto 0
+@include breakpoint(mobile-l)
+	.nav
+		li
+			width: $p100 / 3
 			&.toTop
 				display: none
 	.header
@@ -71,7 +101,6 @@
 			line-height: 40px
 			margin: auto
 		&.block-base
-			overflow: hidden
 			.game-wall
 				width: 120%
 				left: -10%
@@ -103,6 +132,7 @@
 			.blk02bg
 				&.bg02
 					margin-top: 0px
+					height: 100%
 	.app-donload 
 		width: 300px
 		margin-top: 0px

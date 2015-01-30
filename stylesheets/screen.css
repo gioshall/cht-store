@@ -406,11 +406,6 @@ section.block-03.darken {
   }
 }
 @media only screen and (max-width: 768px) {
-  .app-donload {
-    margin: 150px auto 0;
-  }
-}
-@media only screen and (max-width: 568px) {
   .nav {
     bottom: 0;
     margin-top: 0px;
@@ -419,7 +414,7 @@ section.block-03.darken {
     top: initial;
   }
   .nav li {
-    width: 33.3333333333%;
+    width: 25%;
     height: 60px;
     display: inline-block;
     margin: 0px;
@@ -438,6 +433,47 @@ section.block-03.darken {
   }
   .nav li.toDownload {
     background-position: center -120px;
+  }
+  .nav li.toTop {
+    background-position: center -180px;
+  }
+
+  section.block-base {
+    overflow: hidden;
+  }
+  section.block-base .game-wall {
+    width: 120%;
+    left: -10%;
+    top: 15%;
+  }
+  section.block-base .game-hand {
+    height: 45%;
+    min-height: 45%;
+  }
+  section.block-01 h2 {
+    padding-top: 300px;
+    padding-bottom: 40px;
+  }
+  section.block-02 h2 {
+    padding-top: 300px;
+    padding-bottom: 40px;
+  }
+  section.block-02 .dvcs {
+    height: 35%;
+    margin-top: -80px;
+  }
+  section.block-02 .blk02bg.bg02 {
+    margin-top: 130px;
+    height: 90%;
+  }
+
+  .app-donload {
+    margin: 150px auto 0;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .nav li {
+    width: 33.3333333333%;
   }
   .nav li.toTop {
     display: none;
@@ -459,9 +495,6 @@ section.block-03.darken {
     font-size: 35px;
     line-height: 40px;
     margin: auto;
-  }
-  section.block-base {
-    overflow: hidden;
   }
   section.block-base .game-wall {
     width: 120%;
@@ -498,6 +531,7 @@ section.block-03.darken {
   }
   section.block-02 .blk02bg.bg02 {
     margin-top: 0px;
+    height: 100%;
   }
 
   .app-donload {
