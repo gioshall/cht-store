@@ -585,6 +585,13 @@ section.block-03.darken {
   .app-donload h2 img {
     width: 80px;
   }
+  .app-donload .store-apple, .app-donload .store-android, .app-donload .store-hami {
+    height: auto;
+  }
+  .app-donload .store-apple img, .app-donload .store-android img, .app-donload .store-hami img {
+    width: 100%;
+    height: auto;
+  }
 
   .devices {
     text-align: center;
