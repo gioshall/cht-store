@@ -388,10 +388,6 @@ section.block-03.darken {
 
 /* media queries */
 @media only screen and (max-width: 768px) {
-  body {
-    overflow-y: hidden;
-  }
-
   .app-donload {
     margin: 150px auto 0;
   }
@@ -530,41 +526,42 @@ section.block-03.darken {
   }
 
   section h2 {
-    font-size: 45px;
-    line-height: 60px;
-    width: 250px;
+    font-size: 40px;
+    line-height: 50px;
+    width: 220px;
     margin: auto;
   }
   section.block-base {
     overflow: hidden;
   }
   section.block-base .game-wall {
-    width: 160%;
-    left: -30%;
+    width: 120%;
+    left: -10%;
+    top: 40%;
   }
   section.block-base .game-hand {
-    height: 55%;
-    min-height: 55%;
+    height: 40%;
+    min-height: 40%;
   }
   section.block-01 h2 {
-    padding-top: 110px;
-    padding-bottom: 25px;
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
   section.block-01 .main-btn a {
-    width: 220px;
+    width: 200px;
     height: 70px;
     line-height: 70px;
-    font-size: 25px;
+    font-size: 22px;
   }
   section.block-02 h2 {
-    padding-top: 110px;
-    padding-bottom: 25px;
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
   section.block-02 .main-btn a {
-    width: 220px;
+    width: 200px;
     height: 70px;
     line-height: 70px;
-    font-size: 25px;
+    font-size: 22px;
   }
   section.block-02 .dvcs {
     height: 30%;
@@ -575,17 +572,18 @@ section.block-03.darken {
   }
 
   .app-donload {
-    width: 310px;
+    width: 300px;
     margin-top: 0px;
     padding-top: 50px;
   }
-  .app-donload h2 img {
-    width: 80px;
-  }
   .app-donload h2 {
-    font-size: 24px;
+    font-size: 30px;
     text-align: left;
     line-height: 40px;
+    width: 100%;
+  }
+  .app-donload h2 img {
+    width: 80px;
   }
 
   .devices {
