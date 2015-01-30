@@ -389,7 +389,7 @@ section.block-03.darken {
 /* media queries */
 @media only screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .app-donload {
