@@ -1,13 +1,23 @@
 // preload //
 
-// $(document).ready( function() {
-//     var timer;   
-//     $('body').jpreLoader({
-//         splashID: "#jSplash",
-//         loaderVPos: '0%',
-//         autoClose: true        
-//     }); 
-// });
+$(document).ready( function() {
+    var timer;   
+    $('body').jpreLoader({
+        splashID: "#jSplash",
+        loaderVPos: '0%',
+        autoClose: true        
+    }); 
+});
+
+// device
+
+$(document).ready(function(){
+var device = navigator.userAgent.toLowerCase();
+var mobile = device.match(/(iphone|ipod|ipad|android)/);
+if (mobile) {
+     document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+});
+
 
 // scroll
 

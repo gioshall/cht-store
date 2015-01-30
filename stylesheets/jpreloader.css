@@ -1,8 +1,5 @@
-body{
-	display:none;
-}
 #jpreOverlay {
-	background: #666 url(../img/logo.png) center no-repeat;
+	background: #333 url(../img/logo.png) center no-repeat;
 }
 #jpreSlide{
 	font-size:22px;
