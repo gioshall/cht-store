@@ -253,9 +253,34 @@ section
 			@content   
 
 @include breakpoint(pad)
+	body
+		overflow-x: hidden
 	.app-donload
 		margin: 150px auto 0
 @include breakpoint(pad-l)
+	.nav
+		bottom: 0
+		margin-top: 0px
+		z-index: 100
+		width: 100%
+		top: initial
+		li
+			width: $p100 / 3
+			height: 60px
+			display: inline-block
+			margin: 0px
+			float: left
+			background-size: 60px 240px
+			+border-radius(0)
+			background-color: rgba(0,0,0,0.9)
+			&.toGames
+				background-position: center 0
+			&.toDevices
+				background-position: center -60px
+			&.toDownload
+				background-position: center -120px
+			&.toTop
+				display: none
 	.header
 		.logo
 			background-size: 60%
@@ -325,29 +350,6 @@ section
 				line-height: 15px
 	
 @include breakpoint(mobile)
-	.nav
-		bottom: 0
-		margin-top: 0px
-		z-index: 100
-		width: 100%
-		top: initial
-		li
-			width: $p100 / 3
-			height: 60px
-			display: inline-block
-			margin: 0px
-			float: left
-			background-size: 60px 240px
-			+border-radius(0)
-			background-color: rgba(0,0,0,0.9)
-			&.toGames
-				background-position: center 0
-			&.toDevices
-				background-position: center -60px
-			&.toDownload
-				background-position: center -120px
-			&.toTop
-				display: none
 	.header
 		.logo
 			width: 90%

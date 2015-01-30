@@ -388,11 +388,47 @@ section.block-03.darken {
 
 /* media queries */
 @media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .app-donload {
     margin: 150px auto 0;
   }
 }
 @media only screen and (max-width: 568px) {
+  .nav {
+    bottom: 0;
+    margin-top: 0px;
+    z-index: 100;
+    width: 100%;
+    top: initial;
+  }
+  .nav li {
+    width: 33.3333333333%;
+    height: 60px;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    background-size: 60px 240px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .nav li.toGames {
+    background-position: center 0;
+  }
+  .nav li.toDevices {
+    background-position: center -60px;
+  }
+  .nav li.toDownload {
+    background-position: center -120px;
+  }
+  .nav li.toTop {
+    display: none;
+  }
+
   .header .logo {
     background-size: 60%;
     background-position: 3px center;
@@ -484,38 +520,6 @@ section.block-03.darken {
   }
 }
 @media only screen and (max-width: 360px) {
-  .nav {
-    bottom: 0;
-    margin-top: 0px;
-    z-index: 100;
-    width: 100%;
-    top: initial;
-  }
-  .nav li {
-    width: 33.3333333333%;
-    height: 60px;
-    display: inline-block;
-    margin: 0px;
-    float: left;
-    background-size: 60px 240px;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  .nav li.toGames {
-    background-position: center 0;
-  }
-  .nav li.toDevices {
-    background-position: center -60px;
-  }
-  .nav li.toDownload {
-    background-position: center -120px;
-  }
-  .nav li.toTop {
-    display: none;
-  }
-
   .header .logo {
     width: 90%;
     background-size: 85%;
