@@ -436,34 +436,51 @@ section.block-03.darken {
     background-size: 100%;
     background-position: right center;
   }
-  .header .app-donload {
-    width: 550px;
-    margin-top: 50px;
+
+  section h2 {
+    font-size: 40px;
+    line-height: 50px;
+    width: 220px;
+    margin: auto;
   }
-  .header .app-donload h2 {
-    font-size: 29px;
+  section.block-base {
+    overflow: hidden;
   }
-  .header .app-donload .store {
-    margin-top: 10px;
+  section.block-base .game-wall {
+    width: 120%;
+    left: -10%;
+    top: 40%;
   }
-  .header .app-donload .store-hami .qrcode {
-    display: none;
+  section.block-base .game-hand {
+    height: 40%;
+    min-height: 40%;
   }
-  .header .app-donload .store-apple, .header .app-donload .store-android, .header .app-donload .store-hami {
-    width: 100%;
-    height: 100px;
+  section.block-01 h2 {
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
-  .header .app-donload .store-apple img, .header .app-donload .store-android img {
-    width: auto;
+  section.block-01 .main-btn a {
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
   }
-  .header .app-donload .store-hami {
-    position: relative;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 50px;
+  section.block-02 h2 {
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
-  .header .app-donload .store-hami img {
-    margin-top: 18px;
+  section.block-02 .main-btn a {
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
+  }
+  section.block-02 .dvcs {
+    height: 30%;
+    margin-top: -30px;
+  }
+  section.block-02 .blk02bg.bg02 {
+    margin-top: 0px;
   }
 
   .app-donload {
@@ -523,52 +540,6 @@ section.block-03.darken {
   }
   .header .logo-cht {
     display: none;
-  }
-
-  section h2 {
-    font-size: 40px;
-    line-height: 50px;
-    width: 220px;
-    margin: auto;
-  }
-  section.block-base {
-    overflow: hidden;
-  }
-  section.block-base .game-wall {
-    width: 120%;
-    left: -10%;
-    top: 40%;
-  }
-  section.block-base .game-hand {
-    height: 40%;
-    min-height: 40%;
-  }
-  section.block-01 h2 {
-    padding-top: 90px;
-    padding-bottom: 20px;
-  }
-  section.block-01 .main-btn a {
-    width: 200px;
-    height: 70px;
-    line-height: 70px;
-    font-size: 22px;
-  }
-  section.block-02 h2 {
-    padding-top: 90px;
-    padding-bottom: 20px;
-  }
-  section.block-02 .main-btn a {
-    width: 200px;
-    height: 70px;
-    line-height: 70px;
-    font-size: 22px;
-  }
-  section.block-02 .dvcs {
-    height: 30%;
-    margin-top: -30px;
-  }
-  section.block-02 .blk02bg.bg02 {
-    margin-top: 0px;
   }
 
   .app-donload {
