@@ -120,7 +120,7 @@ section.block-base .game-wall, section.block-02 .blk02bg {
   height: 114px;
   display: block;
   background-color: #000;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   border-radius: 5px;
 }
@@ -370,7 +370,7 @@ section.block-03.darken {
 }
 .app-donload .store-hami {
   background-color: #000;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   width: 330px;
   height: 233px;
@@ -422,6 +422,10 @@ section.block-03.darken {
   }
   section.block-03 {
     height: calc(100% + 60px);
+    background-image: url("../img/mobile-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .nav {
