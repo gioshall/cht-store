@@ -656,18 +656,18 @@ section.block-03.darken {
   }
 
   .app-donload {
-    width: 280px;
+    width: 250px;
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .app-donload h2 {
     font-size: 25px;
     text-align: left;
-    line-height: 40px;
+    line-height: 35px;
     width: 100%;
   }
   .app-donload h2 img {
-    width: 80px;
+    width: 70px;
   }
   .app-donload .store-apple, .app-donload .store-android, .app-donload .store-hami {
     height: auto;
