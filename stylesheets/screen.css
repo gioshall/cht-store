@@ -661,13 +661,14 @@ section.block-03.darken {
     padding-top: 40px;
   }
   .app-donload h2 {
-    font-size: 25px;
+    font-size: 23px;
     text-align: left;
     line-height: 35px;
     width: 100%;
   }
   .app-donload h2 img {
     width: 70px;
+    height: 70px;
   }
   .app-donload .store-apple, .app-donload .store-android, .app-donload .store-hami {
     height: auto;
