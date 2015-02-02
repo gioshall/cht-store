@@ -11,15 +11,15 @@ $(document).ready( function() {
 
 // device
 
-$(document).ready(function(){
-var device = navigator.userAgent.toLowerCase();
-var mobile = device.match(/(iphone|ipod|ipad|android)/);
-if (mobile) {
-      $(document).bind('touchmove', function(e) {
-      e.preventDefault();
-      });     
-     }
-});
+// $(document).ready(function(){
+// var device = navigator.userAgent.toLowerCase();
+// var mobile = device.match(/(iphone|ipod|ipad|android)/);
+// if (mobile) {
+//       $(document).bind('touchmove', function(e) {
+//       e.preventDefault();
+//       });     
+//      }
+// });
 
 
 // scroll
