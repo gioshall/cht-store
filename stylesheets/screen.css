@@ -598,6 +598,13 @@ section.block-03.darken {
     left: 2.5%;
     text-align: center;
   }
+  .devices .close {
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    right: -5px;
+    background-size: 100%;
+  }
   .devices li img {
     width: 94%;
     margin: 0 3%;
