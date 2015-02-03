@@ -687,10 +687,11 @@ section.block-03.darken {
   }
 
   .devices {
+    top: 10px;
     text-align: center;
   }
   .devices li, .devices li:last-child {
-    width: 33%;
+    width: 50%;
   }
   .devices ol {
     width: 95%;
@@ -698,7 +699,7 @@ section.block-03.darken {
   }
   .devices ol li {
     width: 100%;
-    font-size: 7.5px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 16px;
   }
 }
