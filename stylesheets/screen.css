@@ -594,6 +594,8 @@ section.block-03.darken {
   }
 
   .devices {
+    width: 95%;
+    left: 2.5%;
     text-align: center;
   }
   .devices li img {
