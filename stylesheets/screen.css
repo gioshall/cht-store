@@ -609,6 +609,9 @@ section.block-03.darken {
     width: 94%;
     margin: 0 3%;
   }
+  .devices li, .devices li:last-child {
+    width: 33.3333333333%;
+  }
   .devices ol {
     border: 0px;
     width: 98%;
@@ -617,8 +620,8 @@ section.block-03.darken {
   }
   .devices ol li {
     width: 100%;
-    font-size: 8px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 16px;
   }
 }
 @media only screen and (max-width: 360px) {
@@ -708,7 +711,5 @@ section.block-03.darken {
   }
   .devices ol li {
     width: 100%;
-    font-size: 11px;
-    line-height: 16px;
   }
 }
